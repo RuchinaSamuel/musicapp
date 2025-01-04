@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.word{
+    @apply mt-3 text-xl text-green-950
+}
+
+.badge{
+    @apply text-sm text-gray-400
+}
+
+.img-case{
+    @apply h-56 w-72 rounded-3xl
+}
+
+.img-word{
+    @apply h-7 w-14 bg-white rounded-2xl justify-center items-center -mt-12 ml-52 absolute px-2 py-1 text-sm text-gray-400
+}
+
+.img-frame{
+    @apply rounded-full h-[80px] w-[80px] object-cover absolute
+}
+
+.img-frame1{
+    @apply rounded-full h-[50px] w-[50px] object-cover absolute
+}
